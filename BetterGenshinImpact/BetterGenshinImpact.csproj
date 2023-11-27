@@ -71,6 +71,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<None Update="Assets\Model\cvAutoTrack\cvAutoTrack.dll">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
 		<None Update="Assets\Model\Fish\bgi_fish.onnx">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
@@ -311,6 +314,10 @@
 		<None Update="User\pick_white_lists.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Assets\Model\cvAutoTrack\" />
 	</ItemGroup>
 
 </Project>

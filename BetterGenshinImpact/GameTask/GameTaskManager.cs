@@ -27,7 +27,8 @@ namespace BetterGenshinImpact.GameTask
                 { "AutoPick", new AutoPick.AutoPickTrigger() },
                 { "AutoSkip", new AutoSkip.AutoSkipTrigger() },
                 { "AutoFishing", new AutoFishing.AutoFishingTrigger() },
-                { "GameLoading", new GameLoading.GameLoadingTrigger() }
+                { "GameLoading", new GameLoading.GameLoadingTrigger() },
+                { "LocationTracking",new LocationTracking.LocationTracker() }
             };
 
             var loadedTriggers = TriggerDictionary.Values.ToList();
